@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,600;1,400&family=Poppins:ital,wght@0,700;1,400&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sentiment Analysis of Social Media Presence</title>
+  </head>
+  <body style="font-family: 'Noto Serif', serif; background-color: #054871">
+    <div
+      style="
+        display: flex;
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+      "
+      class="container"
+    >
+      <div style="margin: auto; background-color: white; border-radius: 40px">
+        <img
+          src="loginpage.gif"
+          width="600"
+          height="600"
+          style="border: solid 1px white; border-radius: 40px"
+        />
+      </div>
+      <div
+        id="right"
+        style="
+          margin: auto;
+          width: 400px;
+          height: 400px;
+          padding: 10px;
+          border: 1px solid black;
+          background-color: white;
+          border-radius: 40px;
+        "
+      >
+        <h1
+          id="right-head"
+          style="
+            font-family: Times New Roman, Times, serif;
+            color: #054871;
+            text-align: left;
+            margin-left: 4%;
+            margin-bottom: -3px;
+          "
+        >
+          Entered text is
+        </h1>
+        <textarea
+          style="
+            padding: 8px;
+            margin-top: 8%;
+            margin-left:4%;
+            height: 100px;
+            width: 84%;
+            border: 2px solid #ccc;
+            box-shadow: 2px 2px 4px #aaa;
+            border-radius: 8px;
+            color: #054871;
+            
+            font-size:16px;
+          "
+          type="text"
+          name="text-input"
+          id="text-input"
+          placeholder="Entered Text"
+        ></textarea
+        ><br />
+        <h1
+          id="right-head"
+          style="
+            font-family: Times New Roman, Times, serif;
+            color: #054871;
+            text-align: left;
+            margin-left: 4%;
+            margin-bottom: 3px;
+          "
+        >
+          Sentiment
+        </h1>
+
+        <input
+          style="
+            padding: 8px;
+            margin-top: 8%;
+            margin-left:4%;
+            width: 84%;
+            height: 3rem;
+            border: 2px solid #ccc;
+            box-shadow: 2px 2px 4px #aaa;
+            border-radius: 8px;
+            font-size:16px;
+          "
+          type="text"
+          name="result"
+          id="result"
+          required
+          placeholder="Sentiment result"
+        /><br />
+      </div>
+    </div>
+
+    
+  </body>
+</html>
